@@ -19,5 +19,6 @@ class CartController extends Controller
 
     	$notification = 'Tu pedido se ha registrado correctamente. Te contactaremos pronto vía mail!';
     	return back()->with(compact('notification'));
+    	
     }
 }
